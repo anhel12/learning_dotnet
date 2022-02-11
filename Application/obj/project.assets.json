@@ -1,26 +1,64 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Persistence.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Persistence/1.0.0": {
+      "type": "project",
+      "path": "../Persistence/Persistence.csproj",
+      "msbuildProject": "../Persistence/Persistence.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Domain >= 1.0.0",
+      "Persistence >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "/home/antman/.nuget/packages/": {}
+    "C:\\Users\\Ante\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/antman/repos/learning_dotnet/Application/Application.csproj",
+      "projectUniqueName": "C:\\Repos\\learning_dotnet\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "/home/antman/repos/learning_dotnet/Application/Application.csproj",
-      "packagesPath": "/home/antman/.nuget/packages/",
-      "outputPath": "/home/antman/repos/learning_dotnet/Application/obj/",
+      "projectPath": "C:\\Repos\\learning_dotnet\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\Ante\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\learning_dotnet\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/antman/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Ante\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -31,7 +69,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj"
+            },
+            "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -58,7 +103,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

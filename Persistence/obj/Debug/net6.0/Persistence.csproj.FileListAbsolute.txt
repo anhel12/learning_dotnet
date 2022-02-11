@@ -1,0 +1,15 @@
+C:\Repos\learning_dotnet\Persistence\bin\Debug\net6.0\Persistence.deps.json
+C:\Repos\learning_dotnet\Persistence\bin\Debug\net6.0\Persistence.dll
+C:\Repos\learning_dotnet\Persistence\bin\Debug\net6.0\ref\Persistence.dll
+C:\Repos\learning_dotnet\Persistence\bin\Debug\net6.0\Persistence.pdb
+C:\Repos\learning_dotnet\Persistence\bin\Debug\net6.0\Domain.dll
+C:\Repos\learning_dotnet\Persistence\bin\Debug\net6.0\Domain.pdb
+C:\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+C:\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+C:\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+C:\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
+C:\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\Persistence.dll
+C:\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\ref\Persistence.dll
+C:\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\Persistence.pdb

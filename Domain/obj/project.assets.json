@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/antman/.nuget/packages/": {}
+    "C:\\Users\\Ante\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/antman/repos/learning_dotnet/Domain/Domain.csproj",
+      "projectUniqueName": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/antman/repos/learning_dotnet/Domain/Domain.csproj",
-      "packagesPath": "/home/antman/.nuget/packages/",
-      "outputPath": "/home/antman/repos/learning_dotnet/Domain/obj/",
+      "projectPath": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Ante\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\learning_dotnet\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/antman/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Ante\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

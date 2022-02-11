@@ -1,0 +1,17 @@
+C:\Repos\learning_dotnet\Application\bin\Debug\net6.0\Application.deps.json
+C:\Repos\learning_dotnet\Application\bin\Debug\net6.0\Application.dll
+C:\Repos\learning_dotnet\Application\bin\Debug\net6.0\ref\Application.dll
+C:\Repos\learning_dotnet\Application\bin\Debug\net6.0\Application.pdb
+C:\Repos\learning_dotnet\Application\bin\Debug\net6.0\Domain.dll
+C:\Repos\learning_dotnet\Application\bin\Debug\net6.0\Persistence.dll
+C:\Repos\learning_dotnet\Application\bin\Debug\net6.0\Persistence.pdb
+C:\Repos\learning_dotnet\Application\bin\Debug\net6.0\Domain.pdb
+C:\Repos\learning_dotnet\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\Repos\learning_dotnet\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\learning_dotnet\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\Repos\learning_dotnet\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\Repos\learning_dotnet\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\Repos\learning_dotnet\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\Repos\learning_dotnet\Application\obj\Debug\net6.0\Application.dll
+C:\Repos\learning_dotnet\Application\obj\Debug\net6.0\ref\Application.dll
+C:\Repos\learning_dotnet\Application\obj\Debug\net6.0\Application.pdb

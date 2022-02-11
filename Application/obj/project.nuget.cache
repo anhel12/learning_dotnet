@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1bKHP67DaL6tWYF5Rln+lCaNYmkOReMwNyxypcRPRKMhIG8B175geBKC/YMA1dQoG6M2drKV0p/9P/QDI/AiNA==",
+  "dgSpecHash": "PGgM6IZ9VaGZCYLopiJWstYWGtJXo4SvAta2iiuVYH10xRlhR5Qk5IIsr0H9sd91hH0xoimZUWZbi2kKN6HQBw==",
   "success": true,
-  "projectFilePath": "/home/antman/repos/learning_dotnet/Application/Application.csproj",
+  "projectFilePath": "C:\\Repos\\learning_dotnet\\Application\\Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
