@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj": {}
+    "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "c:\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
+    "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Ante\\.nuget\\packages\\",
-        "outputPath": "c:\\Repos\\learning_dotnet\\Domain\\obj\\",
+        "outputPath": "C:\\Repos\\learning_dotnet\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ante\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "c:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj": {
+    "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "c:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Ante\\.nuget\\packages\\",
-        "outputPath": "c:\\Repos\\learning_dotnet\\Persistence\\obj\\",
+        "outputPath": "C:\\Repos\\learning_dotnet\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ante\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,8 +78,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Repos\\learning_dotnet\\Domain\\Domain.csproj"
+              "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj"
               }
             }
           }
