@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\learning_dotnet\\Application\\Application.csproj": {}
+    "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\learning_dotnet\\Application\\Application.csproj": {
+    "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\learning_dotnet\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Repos\\learning_dotnet\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Ante\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\learning_dotnet\\Application\\obj\\",
+        "projectPath": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\anhel12\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ante\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\anhel12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,11 +27,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj"
+              "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj"
               },
-              "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj"
+              "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj": {
+                "projectPath": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -44,6 +45,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,26 +66,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
+    "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Ante\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\learning_dotnet\\Domain\\obj\\",
+        "projectPath": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\anhel12\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ante\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\anhel12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -111,34 +120,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj": {
+    "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\Ante\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\learning_dotnet\\Persistence\\obj\\",
+        "projectPath": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\anhel12\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ante\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\anhel12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj"
+              "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj"
               }
             }
           }
@@ -173,7 +184,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

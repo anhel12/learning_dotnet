@@ -11,20 +11,21 @@ namespace API.Controllers
 {
   public class ActivitiesController : BaseApiController
   {
-      private readonly DataContext _context;
-    public ActivitiesController(DataContext context)
+        private readonly IMediator mediator;
+    
+    public ActivitiesController(IMediator mediator)
     {
-        _context = context;
+      _mediator = mediator;
     }
 
     [HttpGet]
     public async Task<ActionResult<List<Activity>>> GetActivities() {
-        return await _context.Activities.ToListAsync();
+      return await mediator.Send(new List.Query());
     }
 
     [HttpGet("{id}")] // activities/id
     public async Task<ActionResult<Activity>> GetActivity(Guid id) {
-        return await _context.Activities.FindAsync(id);
+      return Ok();
     }
   }
 }

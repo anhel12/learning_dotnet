@@ -1088,32 +1088,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ante\\.nuget\\packages\\": {}
+    "C:\\Users\\anhel12\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj",
-      "packagesPath": "C:\\Users\\Ante\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\learning_dotnet\\Persistence\\obj\\",
+      "projectPath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj",
+      "packagesPath": "C:\\Users\\anhel12\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ante\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\anhel12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj"
+            "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj"
             }
           }
         }
@@ -1148,7 +1150,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

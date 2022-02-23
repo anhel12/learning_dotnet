@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wPh+dDXpl6P1iVO8Qrz2ueWbCdqCkojhWoan95JxfcgUgYRfhLHa3L7otpl2QzryAdeD4kZz9ntHGX55bEzehA==",
+  "dgSpecHash": "T/znAaLVzi0LcBT4XeTpJQjDx+rtxQZIZjf6cnK1htDX3hEScVa4LrpEGnhaTi8nXX1DNNZ0vVqovRYUzl0/ig==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
