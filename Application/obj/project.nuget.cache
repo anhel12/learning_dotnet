@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ylve5BayPVFldFbPQsAGeB0aCNRa4WjYwh6UxMNms5F0LIW9VH/pggUfoTocyeX38CB3bRZwTxpSlw3/rAJLHw==",
+  "dgSpecHash": "Jt92hpAIr2RoGvXY+IjH2X/X6zoFBDWVUcEQiNtRUwY6lCKueIx3q6yWyQGZTDUoSO+DW/36WkkPMu5E4J80Qg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\anhel12\\Repos\\learning_dotnet\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anhel12\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\anhel12\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

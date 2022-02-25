@@ -15,7 +15,6 @@ C:\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\ref\Persistence.dll
 C:\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\Persistence.pdb
 C:\Users\anhel12\Repos\learning_dotnet\Persistence\bin\Debug\net6.0\Persistence.deps.json
 C:\Users\anhel12\Repos\learning_dotnet\Persistence\bin\Debug\net6.0\Persistence.dll
-C:\Users\anhel12\Repos\learning_dotnet\Persistence\bin\Debug\net6.0\ref\Persistence.dll
 C:\Users\anhel12\Repos\learning_dotnet\Persistence\bin\Debug\net6.0\Persistence.pdb
 C:\Users\anhel12\Repos\learning_dotnet\Persistence\bin\Debug\net6.0\Domain.dll
 C:\Users\anhel12\Repos\learning_dotnet\Persistence\bin\Debug\net6.0\Domain.pdb
@@ -28,3 +27,4 @@ C:\Users\anhel12\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\Persistence.
 C:\Users\anhel12\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\Persistence.dll
 C:\Users\anhel12\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\ref\Persistence.dll
 C:\Users\anhel12\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\Persistence.pdb
+C:\Users\anhel12\Repos\learning_dotnet\Persistence\obj\Debug\net6.0\refint\Persistence.dll

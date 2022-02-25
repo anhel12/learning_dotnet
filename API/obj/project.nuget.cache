@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "H+g/WgZ+hQihNvK4YskPXkcEqqF2TFrZOOWKqtS/blYALlM4Th0RiRORsTVoEDkwKR31h0E+XwN2VW4xR+AWTw==",
+  "dgSpecHash": "srN7khJinNMCGceMEm3p7ac6y3EPHSpPCw5MIB5bLWfhdHg6bAPl9+kKZ3KV1opuzAx5KJ+Qofj7ITJj0Ay+4Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anhel12\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\anhel12\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\anhel12\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\anhel12\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\anhel12\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.2\\microsoft.data.sqlite.core.6.0.2.nupkg.sha512",
     "C:\\Users\\anhel12\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",
     "C:\\Users\\anhel12\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512",

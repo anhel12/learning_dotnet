@@ -64,7 +64,6 @@ C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\API.exe
 C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\API.deps.json
 C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\API.runtimeconfig.json
 C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\API.dll
-C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\ref\API.dll
 C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\API.pdb
 C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
@@ -118,3 +117,7 @@ C:\Users\anhel12\Repos\learning_dotnet\API\obj\Debug\net6.0\API.dll
 C:\Users\anhel12\Repos\learning_dotnet\API\obj\Debug\net6.0\ref\API.dll
 C:\Users\anhel12\Repos\learning_dotnet\API\obj\Debug\net6.0\API.pdb
 C:\Users\anhel12\Repos\learning_dotnet\API\obj\Debug\net6.0\API.genruntimeconfig.cache
+C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\MediatR.dll
+C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\anhel12\Repos\learning_dotnet\API\obj\Debug\net6.0\refint\API.dll
