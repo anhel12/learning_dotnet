@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "srN7khJinNMCGceMEm3p7ac6y3EPHSpPCw5MIB5bLWfhdHg6bAPl9+kKZ3KV1opuzAx5KJ+Qofj7ITJj0Ay+4Q==",
+  "dgSpecHash": "Ihr6oRzR8cQJOe+MV9o/PnVPxjUETgKmys6nyuqmLmPbIxBO+nGYEQYweO0R0CxcZZAv/RIKpQgiEZrSnIlQxg==",
   "success": true,
   "projectFilePath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\anhel12\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\anhel12\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\anhel12\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\anhel12\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\anhel12\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\anhel12\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\anhel12\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\anhel12\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.2\\microsoft.data.sqlite.core.6.0.2.nupkg.sha512",
     "C:\\Users\\anhel12\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",
     "C:\\Users\\anhel12\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512",
