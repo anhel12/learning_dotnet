@@ -867,6 +867,19 @@
           "bin/placeholder/Domain.dll": {}
         }
       },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
+        }
+      },
       "Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2215,6 +2228,11 @@
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
+    },
     "Persistence/1.0.0": {
       "type": "project",
       "path": "../Persistence/Persistence.csproj",
@@ -2224,6 +2242,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Application >= 1.0.0",
+      "Infrastructure >= 1.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.2",
@@ -2261,6 +2280,9 @@
           "projectReferences": {
             "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Application\\Application.csproj": {
               "projectPath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Application\\Application.csproj"
+            },
+            "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
