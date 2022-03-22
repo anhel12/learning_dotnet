@@ -9,6 +9,7 @@
       "API/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
+          "Infrastructure": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.3",
           "Microsoft.EntityFrameworkCore.Design": "6.0.2",
@@ -637,6 +638,14 @@
           "Domain.dll": {}
         }
       },
+      "Infrastructure/1.0.0": {
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.dll": {}
+        }
+      },
       "Persistence/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
@@ -1089,6 +1098,11 @@
       "sha512": ""
     },
     "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

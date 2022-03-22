@@ -142,3 +142,5 @@ C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\System.IdentityModel
 C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\Infrastructure.pdb
