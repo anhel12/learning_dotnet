@@ -144,3 +144,5 @@ C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\Microsoft.IdentityMo
 C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\Infrastructure.dll
 C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\CloudinaryDotNet.dll
+C:\Users\anhel12\Repos\learning_dotnet\API\bin\Debug\net6.0\Newtonsoft.Json.dll
