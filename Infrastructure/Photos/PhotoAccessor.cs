@@ -25,7 +25,7 @@ namespace Infrastructure.Photos
             _cloudinary = new Cloudinary(account);
         }
 
-        public async Task<PhotoUploadResult> AddPhoto(IFormFile file)
+        public async Task<PhotoUploadResult?> AddPhoto(IFormFile file)
         {
             if (file.Length > 0)
             {
@@ -42,12 +42,20 @@ namespace Infrastructure.Photos
                 {
                     throw new Exception(uploadResult.Error.Message);
                 }
+                return new PhotoUploadResult
+                {
+                    PublicId = uploadResult.PublicId,
+                    Url = uploadResult.SecureUrl.ToString(),
+                };
             }
+            return null;
         }
 
-        public Task<string> DeletePhoto(string publicId)
+        public async Task<string?> DeletePhoto(string publicId)
         {
-            throw new NotImplementedException();
+            var deleteParams = new DeletionParams(publicId);
+            var result = await _cloudinary.DestroyAsync(deleteParams);
+            return result.Result == "ok" ? result.Result : null;
         }
     }
 }

@@ -685,7 +685,8 @@
       "Infrastructure/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
-          "CloudinaryDotNet": "1.17.0"
+          "CloudinaryDotNet": "1.17.0",
+          "Microsoft.Extensions.Options": "6.0.0"
         },
         "runtime": {
           "Infrastructure.dll": {}
