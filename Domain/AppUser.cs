@@ -16,5 +16,9 @@ namespace Domain
 
         public ICollection<Photo> Photos { get; set; }
 
+        public ICollection<UserFollowing> Followings { get; set; }
+
+        public ICollection<UserFollowing> Followers { get; set; }
+
     }
 }
