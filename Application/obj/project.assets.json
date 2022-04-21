@@ -2,6 +2,40 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AForge/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/AForge.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.dll": {}
+        }
+      },
+      "AForge.Imaging/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge": "2.2.5",
+          "AForge.Math": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Imaging.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Imaging.dll": {}
+        }
+      },
+      "AForge.Math/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Math.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Math.dll": {}
+        }
+      },
       "AutoMapper/11.0.0": {
         "type": "package",
         "dependencies": {
@@ -669,6 +703,45 @@
     }
   },
   "libraries": {
+    "AForge/2.2.5": {
+      "sha512": "clkumhM9DggqIzEXAHgVLeWO4arG5YfoPr7J4jfjJx35AoeEIJSSm49J25bwp/9mXQYLwi7y1Wunc8qgYJsGxg==",
+      "type": "package",
+      "path": "aforge/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aforge.2.2.5.nupkg.sha512",
+        "aforge.nuspec",
+        "lib/AForge.dll",
+        "lib/AForge.xml"
+      ]
+    },
+    "AForge.Imaging/2.2.5": {
+      "sha512": "n8l7Zdsm89EFW9Uz4uCO3D428Gu4Q56YxixSMJPruen1c30R8R9Mm8AreTdoOi2XjN5id04JwFFlXYTk8pIIfw==",
+      "type": "package",
+      "path": "aforge.imaging/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aforge.imaging.2.2.5.nupkg.sha512",
+        "aforge.imaging.nuspec",
+        "lib/AForge.Imaging.dll",
+        "lib/AForge.Imaging.xml"
+      ]
+    },
+    "AForge.Math/2.2.5": {
+      "sha512": "pmT1WobVv13vMxwXhCu8sRunxjiUHyURWS0+dsW/aBPi06xiyYIdCLHI6jph9Axb4QoLIlb85eBI6zd2EAbGIg==",
+      "type": "package",
+      "path": "aforge.math/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aforge.math.2.2.5.nupkg.sha512",
+        "aforge.math.nuspec",
+        "lib/AForge.Math.dll",
+        "lib/AForge.Math.xml"
+      ]
+    },
     "AutoMapper/11.0.0": {
       "sha512": "+596AnKykYCk9RxXCEF4GYuapSebQtFVvIA1oVG1rrRkCLAC7AkWehJ0brCfYUbdDW3v1H/p0W3hob7JoXGjMw==",
       "type": "package",
@@ -1653,6 +1726,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AForge.Imaging >= 2.2.5",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Domain >= 1.0.0",
       "FluentValidation.AspNetCore >= 10.3.6",
@@ -1661,19 +1735,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anhel12\\.nuget\\packages\\": {}
+    "C:\\Users\\Ante\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Repos\\learning_dotnet\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\anhel12\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Application\\obj\\",
+      "projectPath": "C:\\Repos\\learning_dotnet\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\Ante\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\learning_dotnet\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\anhel12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ante\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1687,11 +1761,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj"
+            "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj"
+            "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Repos\\learning_dotnet\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -1706,6 +1780,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AForge.Imaging": {
+            "target": "Package",
+            "version": "[2.2.5, )"
+          },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[11.0.0, )"
@@ -1734,11 +1812,41 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AForge 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AForge",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AForge.Imaging 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AForge.Imaging",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AForge.Math 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AForge.Math",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

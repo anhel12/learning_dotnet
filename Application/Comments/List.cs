@@ -2,6 +2,7 @@
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Persistence;
 using System;
 using System.Collections.Generic;
@@ -28,7 +29,7 @@ namespace Application.Comments
                 _mapper = mapper;
             }
 
-            public async Task<Unit> Handle(Query request, CancellationToken cancellationToken)
+            public async Task<Result<List<CommentDto>>> Handle(Query request, CancellationToken cancellationToken)
             {
                 var comments = await _context.Comments
                     .Where(x => x.Activity.Id == request.ActivityId)
@@ -37,11 +38,6 @@ namespace Application.Comments
                     .ToListAsync();
 
                 return Result<List<CommentDto>>.Success(comments);
-            }
-
-            Task<Result<List<CommentDto>>> IRequestHandler<Query, Result<List<CommentDto>>>.Handle(Query request, CancellationToken cancellationToken)
-            {
-                throw new NotImplementedException();
             }
         }
     }

@@ -735,19 +735,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anhel12\\.nuget\\packages\\": {}
+    "C:\\Users\\Ante\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\anhel12\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anhel12\\Repos\\learning_dotnet\\Domain\\obj\\",
+      "projectPath": "C:\\Repos\\learning_dotnet\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Ante\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\learning_dotnet\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\anhel12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ante\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -793,7 +793,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
