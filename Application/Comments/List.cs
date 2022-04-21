@@ -39,10 +39,6 @@ namespace Application.Comments
 
                 return Result<List<CommentDto>>.Success(comments);
             }
-<<<<<<< HEAD
-=======
-
->>>>>>> be248c7c61fd87d814282c62f019f7b4a0a3a530
         }
     }
 }

@@ -1,6 +1,5 @@
 C:\Repos\learning_dotnet\Domain\bin\Debug\net6.0\Domain.deps.json
 C:\Repos\learning_dotnet\Domain\bin\Debug\net6.0\Domain.dll
-C:\Repos\learning_dotnet\Domain\bin\Debug\net6.0\ref\Domain.dll
 C:\Repos\learning_dotnet\Domain\bin\Debug\net6.0\Domain.pdb
 C:\Repos\learning_dotnet\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
 C:\Repos\learning_dotnet\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
@@ -22,3 +21,4 @@ C:\Users\anhel12\Repos\learning_dotnet\Domain\obj\Debug\net6.0\Domain.dll
 C:\Users\anhel12\Repos\learning_dotnet\Domain\obj\Debug\net6.0\ref\Domain.dll
 C:\Users\anhel12\Repos\learning_dotnet\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\anhel12\Repos\learning_dotnet\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Repos\learning_dotnet\Domain\obj\Debug\net6.0\refint\Domain.dll

@@ -1,13 +1,16 @@
-﻿using Application.Core;
+﻿using AForge.Imaging;
+using Application.Core;
 using Application.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 using System;
+using System.Net.Http;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace Application.Photos
 {
@@ -29,8 +32,11 @@ namespace Application.Photos
                 _userAccessor = userAccessor;
             }
 
-            public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
+            public async Task<Result<Unit>> Handle(Command request,  CancellationToken cancellationToken)
             {
+                HttpClient req = new HttpClient();
+                
+
                 var user = await _context.Users.Include(p => p.Photos)
                     .FirstOrDefaultAsync(x => x.UserName == _userAccessor.GetUsername());
 
@@ -42,7 +48,32 @@ namespace Application.Photos
 
                 var currentMain = user.Photos.FirstOrDefault(x => x.IsMain);
 
-                if (currentMain != null) currentMain.IsMain = false;
+                if (currentMain != null)    // If user has a main photo already
+                 {
+                    var currentMainReq = await req.GetAsync(currentMain.Url, cancellationToken);
+                    var currentMainImg = await currentMainReq.Content.ReadAsStreamAsync();
+                    var currentMainBitmap = new Bitmap(currentMainImg);
+                    
+                    var photoReq = await req.GetAsync(photo.Url, cancellationToken);
+                    var photoImg = await photoReq.Content.ReadAsStreamAsync();
+                    var photoBitmap = new Bitmap(photoImg);
+
+
+
+                    // create template matching algorithm's instance
+                    // use zero similarity to make sure algorithm will provide anything
+                    ExhaustiveTemplateMatching tm = new ExhaustiveTemplateMatching(0);
+                    // compare two images
+                    TemplateMatch[] matchings = tm.ProcessImage(photoBitmap, currentMainBitmap);
+                    // check similarity level
+                    Console.WriteLine(matchings[0].Similarity);
+                    if (matchings[0].Similarity > 0.95f)
+                    {
+                        return Result<Unit>.Failure("This photo is already main photo");
+                    }
+                    currentMain.IsMain = false;
+                }
+                    
 
                 photo.IsMain = true;
 
