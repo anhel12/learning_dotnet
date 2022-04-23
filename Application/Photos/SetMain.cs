@@ -71,7 +71,7 @@ namespace Application.Photos
                     Console.WriteLine(matchings[0].Similarity);
                     if (matchings[0].Similarity > 0.95f)
                     {
-                        return Result<Unit>.Failure("This photo is already main photo");
+                        return Result<Unit>.Failure("The photo is too similar to current. \n - Similarity: " + matchings[0].Similarity);
                     }
                     currentMain.IsMain = false;
                 }
