@@ -50,10 +50,12 @@ namespace Application.Photos
 
                 if (currentMain != null)    // If user has a main photo already
                  {
+                    // Use URL from the current main photo object to GET the actual image file
                     var currentMainReq = await req.GetAsync(currentMain.Url, cancellationToken);
                     var currentMainImg = await currentMainReq.Content.ReadAsStreamAsync();
                     var currentMainBitmap = new Bitmap(currentMainImg);
-                    
+
+                    // Do the same for the selected photo
                     var photoReq = await req.GetAsync(photo.Url, cancellationToken);
                     var photoImg = await photoReq.Content.ReadAsStreamAsync();
                     var photoBitmap = new Bitmap(photoImg);
